@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="163" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="HomeTask_1" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="104"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="343" height="104"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="14.32 км" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOB-Bk-vlX">
+                        <rect key="frame" x="16" y="14" width="89.5" height="26.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 часа 46 минут" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xuy-to-TES">
+                        <rect key="frame" x="16" y="41.5" width="116.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon" translatesAutoresizingMaskIntoConstraints="NO" id="YkJ-2r-3gy">
+                        <rect key="frame" x="17" y="60.5" width="14.5" height="20"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Велосипед" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISt-qS-nG5">
+                        <rect key="frame" x="37" y="60" width="78.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="14 часов назад" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4eZ-hE-jrp">
+                        <rect key="frame" x="187.5" y="60" width="119.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ISt-qS-nG5" firstAttribute="leading" secondItem="YkJ-2r-3gy" secondAttribute="trailing" constant="5.5" id="1Im-D6-ex2"/>
+                    <constraint firstItem="VOB-Bk-vlX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="Nty-PT-Axa"/>
+                    <constraint firstItem="YkJ-2r-3gy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="17" id="OWb-PN-Y1z"/>
+                    <constraint firstItem="VOB-Bk-vlX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Uxw-Qa-Sm1"/>
+                    <constraint firstItem="Xuy-to-TES" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="XDp-Ut-Yde"/>
+                    <constraint firstItem="Xuy-to-TES" firstAttribute="top" secondItem="VOB-Bk-vlX" secondAttribute="bottom" constant="1" id="a8A-cA-sWg"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="4eZ-hE-jrp" secondAttribute="trailing" constant="16" id="i2c-RX-Odh"/>
+                    <constraint firstItem="YkJ-2r-3gy" firstAttribute="top" secondItem="Xuy-to-TES" secondAttribute="bottom" constant="1" id="u93-vQ-8wV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="205.07246376811597" y="114.50892857142857"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Icon" width="14.5" height="20"/>
+    </resources>
+</document>
